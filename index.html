@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilo.css">
     
     <title>login</title>
 </head>
 <body>
     <div id="container">
         <div id="formulario">
-            <form action="">
+            <form action="" id="form" >
                 <label for="">Email:</label>
                 <input type="text" 
                 placeholder="Digite seu Email"
@@ -19,8 +20,10 @@
                 <input type="password" 
                 placeholder="Digite sua senha"
                 required>
-                <button type="submit" id="botao">Entrar</button>
-                <button type="reset" id="butao" >Limpar</button>
+                <div id="botoes">
+                    <button type="submit" id="botao">Entrar</button>
+                    <button type="reset" id="butao" >Limpar</button>
+                </div>
             </form>
         </div>
         <div id="foto">

@@ -1,0 +1,46 @@
+@charset "UTF-08";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: linear-gradient(to bottom right, #1a1a2e, #ff5733);
+    height: 100vh;
+    
+}
+#container{
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#formulario{
+    background-color: #fff;
+    padding: 20px;
+}
+ 
+#form label, 
+#form input,
+#form button{
+    display: block;
+    padding: 3px;
+    margin: 3px;
+}
+#form input{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+}
+#form button{
+    padding: 3px;
+    width: 120px;
+    height: 55px;
+}
+#botoes{
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    
+}
