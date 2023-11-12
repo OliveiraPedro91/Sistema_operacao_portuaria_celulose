@@ -6,19 +6,23 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background: linear-gradient(to bottom right, #1a1a2e, #ff5733);
+    background: linear-gradient(to bottom right, #1616f0, orange);
     height: 100vh;
-    
-}
-#container{
-    max-width: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
 }
 #formulario{
     background-color: #fff;
     padding: 20px;
+    
 }
  
 #form label, 
@@ -41,6 +45,11 @@ body{
 #botoes{
     margin: auto;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;    
+}
+#foto{
+    width: 305px;
+    height: 305px;
+    background-image: url(/imagens/load.jpg);
     
 }
