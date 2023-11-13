@@ -6,7 +6,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background: linear-gradient(to bottom right, #1616f0, orange);
+    background: linear-gradient(to bottom right, orange, black);
     height: 100vh;
     display: flex;
     justify-content: center;
