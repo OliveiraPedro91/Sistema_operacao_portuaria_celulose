@@ -6,12 +6,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit' sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 body{
-    /* background: linear-gradient(to bottom right, #1616f0, orange); */
-    height: 100vh;
 }
 nav.menu-lateral{
     width: 80px;
@@ -75,5 +73,3 @@ ul li.item-menu a .icon > i{
     font-size: 20px;
     margin-left: 10px;
 }
-
- 

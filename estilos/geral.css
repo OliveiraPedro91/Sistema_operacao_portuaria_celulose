@@ -1,0 +1,24 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;500;700;900&display=swap');
+
+body{
+    background: linear-gradient(to bottom right, orange, black);
+    height: 100%;
+}
+
+#padrao-home{
+    text-align: center;
+    padding: 10px;
+}
+#conteudo{
+    background-color: white;
+    max-width: 550px;
+    margin: auto;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+img{
+    padding: 10px;
+    max-width: 400px;
+}
