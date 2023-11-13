@@ -49,10 +49,13 @@ body{
     transition: 0.3s;
     text-transform: uppercase;
 }
+#form button a{
+    text-decoration: none;
+    color: black;
+}
 #form button:hover{
     text-transform: uppercase;
     font-weight: bold;
-
 }
 #botoes{
     margin: auto;

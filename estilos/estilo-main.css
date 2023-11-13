@@ -1,8 +1,15 @@
 @charset "UTF-08";
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;500;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    font-family: 'Outfit' sans-serif;
 }
 
+body{
+    /* background: linear-gradient(to bottom right, #1616f0, orange); */
+    height: 100vh;
+}
