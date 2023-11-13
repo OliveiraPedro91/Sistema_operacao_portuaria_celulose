@@ -18,11 +18,12 @@ body{
     flex-direction: column;
     align-items: center;
     margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 #formulario{
-    background-color: #fff;
+    background-color: rgb(247, 246, 246);
     padding: 20px;
-    
 }
  
 #form label, 
@@ -41,15 +42,23 @@ body{
     padding: 3px;
     width: 120px;
     height: 55px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#form button:hover{
+    border: 3px solid black;
 }
 #botoes{
     margin: auto;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
 }
 #foto{
     width: 305px;
     height: 305px;
     background-image: url(/imagens/load.jpg);
-    
+    background-color: rgba(0, 0, 0, 0.30);
+    background-blend-mode: color;
+    background-size: cover;
+    overflow: hidden;
 }
