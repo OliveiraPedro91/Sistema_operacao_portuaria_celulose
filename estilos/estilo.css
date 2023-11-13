@@ -19,7 +19,7 @@ body{
     align-items: center;
     margin: auto;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 #formulario{
     background-color: rgb(247, 246, 246);
@@ -37,6 +37,7 @@ body{
     width: 250px;
     height: 35px;
     border-radius: 5px;
+    border: 2px solid orange;
 }
 #form button{
     padding: 3px;
@@ -44,14 +45,20 @@ body{
     height: 55px;
     cursor: pointer;
     border-radius: 5px;
+    border: 2px solid orange;
+    transition: 0.3s;
+    text-transform: uppercase;
 }
 #form button:hover{
-    border: 3px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+
 }
 #botoes{
     margin: auto;
     display: flex;
     justify-content: space-between;  
+    background-color: white;
 }
 #foto{
     width: 305px;
