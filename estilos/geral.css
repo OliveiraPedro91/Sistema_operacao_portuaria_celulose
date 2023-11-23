@@ -28,15 +28,15 @@ img{
 }
 @media only screen and (max-width: 720px){
     #conteudo{
-        background-color: white;
-        max-width: 70%;
-        height: 100vh;
-        margin: auto;
-        font-size: 1rem;
-        padding: 3px;
-        border-radius: 5px;
+        margin-left: 95px;
     }
     #conteudo img{
         max-width: 90%;
+    }
+}
+@media only screen and (max-width: 530px){
+    #conteudo{
+        background-color: white;
+        max-width: 80%;
     }
 }
