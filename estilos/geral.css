@@ -13,7 +13,7 @@ body{
 }
 #conteudo{
     background-color: white;
-    max-width: 550px;
+    max-width: 70%;
     height: 100vh;
     margin: auto;
     font-size: 1.1rem;
@@ -22,15 +22,21 @@ body{
 }
 img{
     margin: 10px;
-    max-width: 400px;
+    max-width: 90%;
     max-height: 700px;
     overflow: hidden;
 }
-@media screen and(max-width: 730px){
-    #padrao-home > h1{
-        color: red;
-    }
+@media only screen and (max-width: 720px){
     #conteudo{
-        max-width: 450px;
+        background-color: white;
+        max-width: 70%;
+        height: 100vh;
+        margin: auto;
+        font-size: 1rem;
+        padding: 3px;
+        border-radius: 5px;
+    }
+    #conteudo img{
+        max-width: 90%;
     }
 }
