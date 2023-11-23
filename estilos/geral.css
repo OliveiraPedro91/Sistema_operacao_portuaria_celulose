@@ -14,7 +14,7 @@ body{
 #conteudo{
     background-color: white;
     max-width: 70%;
-    height: 100vh;
+    height: 90%;
     margin: auto;
     font-size: 1.1rem;
     border-radius: 5px;
@@ -23,7 +23,7 @@ body{
 img{
     margin: 10px;
     max-width: 90%;
-    max-height: 700px;
+    max-height: 850px;
     overflow: hidden;
 }
 @media only screen and (max-width: 720px){
