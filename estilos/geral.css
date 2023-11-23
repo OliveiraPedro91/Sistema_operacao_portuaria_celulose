@@ -28,15 +28,22 @@ img{
 }
 @media only screen and (max-width: 720px){
     #conteudo{
-        margin-left: 95px;
+        margin-left: 80px;
+        width: 70%;
     }
     #conteudo img{
         max-width: 90%;
+    }
+    h1{
+        font-size: 0.9rem;
     }
 }
 @media only screen and (max-width: 530px){
     #conteudo{
         background-color: white;
         max-width: 80%;
+    }
+    h1{
+        font-size: 0.5rem;
     }
 }
