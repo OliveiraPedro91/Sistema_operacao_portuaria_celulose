@@ -44,5 +44,11 @@ a{
     border: solid black 3px;
 }
 @media only screen and (max-width: 700px){
-
+    .tabela-embarcacao{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .operacao, .status{
+        display: none;
+    }
 }
