@@ -5,6 +5,9 @@
 body{
     background: linear-gradient(to bottom right, orange, black);
     height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #padrao-home{

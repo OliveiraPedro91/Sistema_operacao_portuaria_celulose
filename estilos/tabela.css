@@ -1,0 +1,53 @@
+.tabela-embarcacao{
+    max-width: 80%;
+    margin: auto;
+    background-color: #f3f1f1;
+    border-radius: 5px;
+    text-align: center;
+}
+table{
+    margin-left: 120px;
+    margin-top: 60px;
+    padding: 10px;
+}
+table th{
+    width: 160px;
+    border-bottom: 2px solid black;
+}
+table td{
+    text-align: center;
+    border-bottom: 1px solid black;
+    height: 32px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.td-botao{
+    border: none;
+}
+.botao-tabela{
+    background-color: transparent;
+    border: solid black 1px;
+    cursor: pointer;
+    width: 140px;
+    height: 32px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 3px;
+}
+.botao-tabela:hover{
+    text-decoration: underline;
+    border: solid black 3px;
+}
+@media only screen and (max-width: 800px){
+    table{
+        max-width: 500px;
+    }
+    .tipo{
+        display: none;
+    } 
+    .operacao{
+        display: none;
+    }
+}
