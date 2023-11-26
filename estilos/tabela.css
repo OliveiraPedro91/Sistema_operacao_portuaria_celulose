@@ -4,9 +4,9 @@
     background-color: #f3f1f1;
     border-radius: 5px;
     text-align: center;
+    overflow-x: auto;
 }
 table{
-    margin-left: 120px;
     margin-top: 60px;
     padding: 10px;
 }
@@ -39,15 +39,4 @@ a{
 .botao-tabela:hover{
     text-decoration: underline;
     border: solid black 3px;
-}
-@media only screen and (max-width: 800px){
-    table{
-        max-width: 500px;
-    }
-    .tipo{
-        display: none;
-    } 
-    .operacao{
-        display: none;
-    }
 }
