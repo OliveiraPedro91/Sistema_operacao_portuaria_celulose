@@ -7,6 +7,7 @@
     overflow-x: auto;
 }
 table{
+    margin: auto;
     margin-top: 60px;
     padding: 10px;
 }
