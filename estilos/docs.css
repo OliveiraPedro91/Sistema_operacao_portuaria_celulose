@@ -1,0 +1,28 @@
+@charset "UTF-08";
+body{
+    margin: auto;
+    text-align: center;
+}
+h1{
+    margin-bottom: 10px;
+}
+.documentos{
+    text-align: justify;
+    padding: 30px;
+    line-height: 30px;
+    margin: auto;
+    display: flex;
+    width: 60%;
+    background-color: rgb(243, 243, 243);
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.documentos a{
+    text-decoration: none;
+    border: solid 1px black;
+    border: hidden;
+}
+.documentos a:hover{
+    text-decoration: underline;
+    
+}
