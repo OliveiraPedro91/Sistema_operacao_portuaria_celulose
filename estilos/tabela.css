@@ -4,7 +4,7 @@ body{
 .tabela-embarcacao{
     width: 80%;
     margin: auto;
-    background-color: #f3f1f1;
+    background-color: rgb(243, 243, 243);
     border-radius: 5px;
     text-align: center;
     overflow-x: auto;
